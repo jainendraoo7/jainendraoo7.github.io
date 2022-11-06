@@ -6,13 +6,31 @@ $(document).ready(function(){
         else{
             $('.navbar').removeClass("sticky");
         }
-        if(this.scrolly > 500){
-            $('.scroll-up').addClass("show");
-        }
-        else{
-            $('.scroll-up').removeClass("show");
-        }
+        // if(this.scrolly > 500){
+        //     $('.scroll-up').addClass("show");
+        // }
+        // else{
+        //     $('.scroll-up').removeClass("show");
+        // }
     });
+
+
+//    typing animation script 
+
+      let typed = new Typed(".typing",{
+        strings: [" Java Backend Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+      })
+
+
+      let typed2 = new Typed(".typing2",{
+        strings: ["Java","SpringBoot","MYSQL","Hibernate"],
+        typeSpeed: 150,
+        backSpeed: 60,
+        loop: true
+      })
 
     // slide up script 
 
@@ -27,3 +45,21 @@ $('.menu-btn').click(function(){
 })
 
 });
+
+
+function git1(){
+    window.location.href = "https://github.com/mazidul36i/Cronometer_clone"
+    window.target = "_blank"
+}
+
+function deploy1(){
+    window.location.href = "https://cronometerclone.netlify.app/"
+}
+
+function git2(){
+    window.location.href = "https://github.com/jainendraoo7/overjoyed-seashore-212"
+}
+
+function deploy2(){
+    window.location.href = "https://cozy-starlight-b42384.netlify.app"
+}
