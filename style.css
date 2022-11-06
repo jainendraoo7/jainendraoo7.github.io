@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+  /* background: rgb(28, 28, 40); */
+
+    
 }
 
 html{
@@ -23,9 +26,7 @@ html{
 
 .navbar.sticky {
     padding: 15px 0;
-    background: crimson;
   background: rgb(53, 53, 68);
-
     color: white;
 }
 
@@ -270,7 +271,6 @@ section {
 /* project section ------------------------------------------------ */
 
 .project{
-    background: white;
   background: rgb(28, 28, 40);
 
 }
@@ -321,7 +321,6 @@ section {
 .project .project1 .right .sub-head a {
     font-size:17px;
     margin-top: 10px;
-    color: #333;
     margin-left:5px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -363,7 +362,6 @@ section {
 /* contact section */
 
 .contact{
-    background: whitesmoke;
     background: rgb(28, 28, 40);
 
 }
@@ -573,7 +571,6 @@ section {
 footer{
     background: rgb(28, 28, 40);  
     padding: 20px 23px;
-    color: #fff;
     color: rgb(167, 165, 165);
 
     text-align: center;
@@ -651,8 +648,12 @@ footer span a{
         font-size: 35px;
     }
 
+ .max-width {
+        max-width: 800px;
+    }
+
     .about .about-content .column {
-        width: 50%;
+        width: 100%;
     }
 
     .about .about-content .left {
@@ -662,15 +663,10 @@ footer span a{
     }
 
     .about .about-content .right {
-        flex: 100;
+        flex: 100%;
         justify-content: center;
         margin: 0 auto 60px;
     }
-
-    .max-width {
-        max-width: 800px;
-    }
-
 
     .contact .contact-content .column {
         width: 100%;
@@ -691,16 +687,25 @@ footer span a{
     .home .home-content .text-3 {
         font-size: 32px;
     }
+
 }
 
-@media (max-width: 500px) {
+@media (max-width:500px) {
 
+
+    .home .home-content .text-1 {
+        font-size: 20px;
+    }
 
     .home .home-content .text-2 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .home .home-content .text-3 {
-        font-size: 27px;
+        font-size: 20px;
     }
+
+
+    
+
 }
