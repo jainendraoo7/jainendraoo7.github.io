@@ -255,7 +255,7 @@ section {
   .skills .tools_and_tech {
       display: flex;
       flex-wrap: wrap;
-      gap: 30px;
+      gap: 40px;
       justify-content: center;
       width: 75%;
       margin: auto;
