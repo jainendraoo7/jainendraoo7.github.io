@@ -5,7 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-  /* background: rgb(28, 28, 40); */
+    /* background: rgb(8, 8, 41); */
+    /* background: ; */
 
     
 }
@@ -26,7 +27,8 @@ html{
 
 .navbar.sticky {
     padding: 15px 0;
-  background: rgb(53, 53, 68);
+  /* background: rgb(53, 53, 68); */
+  background: rgba(48, 43, 92, 0.999);
     color: white;
 }
 
@@ -38,16 +40,18 @@ html{
     color: white;
 }
 
-.max-width {
-    max-width: 1300px;
-    padding: 0 80px;
+ .max-width {
+    max-width: 1200px;
+    padding: 0 40px;
     margin: auto;
+
 }
 
 .navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1500px;
 }
 
 .navbar .logo a {
@@ -64,17 +68,18 @@ html{
 .navbar .menu li {
     list-style: none;
     display: inline-block;
+    margin-left: 10px;
 }
 
 .navbar .menu li a {
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     margin-left: 25px;
 }
 
 .navbar .menu li a:hover {
-    color: crimson;
+    color:  rgba(136, 129, 225, 0.999);
 }
 
 
@@ -91,37 +96,86 @@ html{
 /* home-section =====================================================*/
 .home {
     display: flex;
-    /* background-color: rgb(65, 65, 65); */
     background: rgb(28, 28, 40);
+    background: rgb(8, 8, 41);
     height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: 'ubuntu', sans-serif;
+   
+}
 
+.home .home-content{
+ /* border:5px solid red; */
 }
 
 .home .max-width {
-    margin: auto 0 auto 40px;
+    margin: 80px 0 auto 150px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    /* border: 10px solid black; */
+}
+.home .max-width .home-content{
+    /* border: 1px solid black; */
+    width: 100%;
 
 }
 
+.home .max-width .img{
+    /* border: 5px solid rgb(148, 31, 31); */
+}
+
 .home .home-content .text-1 {
-    font-size: 27px;
-    margin-left: 10px;
+    font-size: 20px;
+    margin-left: -5px;
+    margin-bottom: 20px;
 }
 
 .home .home-content .text-2 {
     font-size: 60px;
     font-weight: 500;
     margin-left: -3px;
+    margin-bottom: 10px;
 }
 
 .home .home-content .text-3 {
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+.home .home-content .text-4 {
+    margin-top: 20px;
+    font-size: 20px;
     font-weight: 300;
     margin-left: -3px;
+}
+.home .home-content .text-5{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: -3px;
+}
+
+ .home .home-content a {
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgba(136, 129, 225, 0.999);
+    color: rgb(167, 165, 165);
+    color:rgb(8, 8, 41) ;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgba(136, 129, 225, 0.999);
+
+    transition: all 0.3s ease;
+}
+
+.home .home-content a:hover {
+    color: rgba(136, 129, 225, 0.999);
+    background: none;
+
 }
 
 .home .home-content .text-3 span {
@@ -134,9 +188,17 @@ html{
 /* about section ======================================== */
 
 .about{
-    background: rgb(28, 28, 40);
+    /* background: rgb(28, 28, 40); */
+    /* border: 5px solid red; */
+    background: rgb(8, 8, 41);
+
 
 }
+
+.about .about-content{
+    /* border: 5px solid white; */
+}
+
 section {
     padding: 100px 0
 }
@@ -153,18 +215,21 @@ section {
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'ubuntu', sans-serif;
-    color: rgb(167, 165, 165);
+    color: whitesmoke;
 }
 
 .title span{
-    color: crimson;
+    /* color: crimson; */
+    color:rgba(136, 129, 225, 0.999);
 }
 
 .about .about-content .left img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 100px;
+    border: 5px solid rgba(136, 129, 225, 0.999);
+    margin-left: 0px;
 }
 
 .about .about-content,
@@ -176,28 +241,46 @@ section {
 }
 
 .about .about-content .left {
-    width:45%;
+    width:28%;
+    /* border: 1px solid yellow; */
 }
 
 .about .about-content .right {
-    width: 55%;
+    width:65%;
+    /* border: 1px solid green; */
+    margin-right: 50px;
 }
 
 .about .about-content .right .text {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 10px;
-    color: rgb(167, 165, 165);
+    color: rgb(255, 252, 252);
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
 
 }
+
+.about .about-content .right .text-1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+
 .about .about-content .right .text span{
-    color: crimson;
+    color: rgba(136, 129, 225, 0.999);
 }
-
+.about .about-content .right .text-1 span{
+    color: rgba(136, 129, 225, 0.999);
+}
 .about .about-content .right p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(167, 165, 165);
     font-family: 'Poppins', sans-serif;
 
@@ -225,7 +308,9 @@ section {
 
 /* skills-section======================================================================================================================= */
 .skills.section-padding {
-    background: rgb(28, 28, 40);
+    /* background: rgb(28, 28, 40); */
+    background: rgb(8, 8, 41);
+
       
   }
   .skills h3 {
@@ -235,7 +320,7 @@ section {
       padding-bottom: 20px;
       text-align: center;
       font-family: 'ubuntu', sans-serif;
-      color: rgb(167, 165, 165);
+      color: whitesmoke;
       
   }
   
@@ -245,11 +330,11 @@ section {
       font-weight: 500;
       margin-bottom: 20px;
       font-family: 'ubuntu', sans-serif;
-      color: rgb(167, 165, 165);
+      color: whitesmoke;
   }
 
   .skills h2 span{
-    color: crimson;
+    color: rgba(136, 129, 225, 0.999);
   }
   
   .skills .tools_and_tech {
@@ -287,6 +372,8 @@ section {
 
 .project{
   background: rgb(28, 28, 40);
+  background: rgb(8, 8, 41);
+
 
 }
 
@@ -329,7 +416,7 @@ section {
 .project .project1 .right .head{
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(167, 165, 165);
+    color: whitesmoke;
     margin-bottom: 10px;
 
 }
@@ -339,7 +426,7 @@ section {
     margin-left:5px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    color: rgb(167, 165, 165);
+    color: whitesmoke;
     
 
 }
@@ -360,7 +447,7 @@ section {
     font-family: 'Poppins', sans-serif;
     font-weight: 550;
     margin-top: 15px;
-    color: rgb(167, 165, 165);
+    color:whitesmoke;
 
 }
 .project .project1 .right .sub-head2 img{
@@ -378,6 +465,8 @@ section {
 
 .contact{
     background: rgb(28, 28, 40);
+    background: rgb(8, 8, 41);
+
 
 }
 
@@ -492,9 +581,9 @@ section {
 .contact .right form .button button {
     width: 100%;
     height: 100%;
-    border: 2px solid crimson;
-    background: crimson;
-    color: #fff;
+    border: 2px solid rgba(136, 129, 225, 0.999);
+    background: rgba(136, 129, 225, 0.999);
+    color: rgb(8, 8, 41);
     font-size: 20px;
     font-weight: 500;
     border-radius: 6px;
@@ -502,7 +591,7 @@ section {
 }
 
 .contact .right form .button button:hover {
-    color: crimson;
+    color: rgba(136, 129, 225, 0.999);
     background: none;
 }
 
@@ -517,49 +606,46 @@ section {
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color: crimson;
-    /* right: 30px; */
-    left: 30px;
+    background-color:rgba(48, 43, 92, 0.999);
+    left: 20px;
     text-align: center;
-    bottom: 10px;
-    color: #fff;
+    bottom: 20px;
+    color: whitesmoke;
     line-height: 45px;
     z-index: 9999;
     font-size: 30px;
     cursor: pointer;
     border-radius: 6px;
-    /* opacity: 0; */
-    /* pointer-events: none; */
+    /* border:2px solid rgba(255, 255, 255, 0.999); */
     transition: all 0.3s ease;
 }
 .scroll-up1{
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color: crimson;
-    /* right: 30px; */
-    left: 30px;
+    background-color:rgba(48, 43, 92, 0.999);
+
+    left: 20px;
     text-align: center;
-    bottom: 60px;
+    bottom: 80px;
     color: #fff;
     line-height: 45px;
     z-index: 9999;
     font-size: 30px;
     cursor: pointer;
     border-radius: 6px;
-    /* opacity: 0; */
-    /* pointer-events: none; */
+    /* border:2px solid rgba(136, 129, 225, 0.999); */
     transition: all 0.3s ease;
 }
 .scroll-up2{
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color: crimson;
+    background-color:rgba(48, 43, 92, 0.999);
     /* right: 30px; */
-    left: 30px;
+    left: 20px;
     text-align: center;
-    bottom: 110px;
+    bottom: 140px;
     color: #fff;
     line-height: 45px;
     z-index: 9999;
@@ -568,6 +654,7 @@ section {
     border-radius: 6px;
     /* opacity: 0; */
     /* pointer-events: none; */
+    /* border:2px solid rgba(136, 129, 225, 0.999); */
     transition: all 0.3s ease;
 }
 
@@ -584,7 +671,8 @@ section {
 
 /* footer section  */
 footer{
-    background: rgb(28, 28, 40);  
+    /* background: rgb(28, 28, 40); */
+    background: rgb(8, 8, 41);
     padding: 20px 23px;
     color: rgb(167, 165, 165);
 
@@ -688,6 +776,12 @@ footer span a{
     .home .home-content .text-3 {
         font-size: 35px;
     }
+    .home .home-content .text-4 {
+        font-size: 18px;
+    }
+    .home .home-content .text-5 {
+        font-size: 18px;
+    }
 
  .max-width {
         max-width: 800px;
@@ -746,6 +840,12 @@ footer span a{
     .home .home-content .text-3 {
         font-size: 32px;
     }
+    .home .home-content .text-4 {
+        font-size: 14px;
+    }
+    .home .home-content .text-5 {
+        font-size: 14px;
+    }
 
 }
 
@@ -777,6 +877,8 @@ footer span a{
         border: 1px solid white;
         /* padding: 10px 10px; */
     }
+
+    
     .skills .tools a{
         display: flex;
         justify-content: center;
