@@ -112,7 +112,7 @@ sr.reveal('.statsContainer', { delay: 400 })
 
 // Projects----------sub-head2
 sr.reveal('.project1', { delay: 200 })
-sr.reveal('.sub-head2', { delay: 500 })
+
 
 // contact-----
 const sr1 = ScrollReveal({
