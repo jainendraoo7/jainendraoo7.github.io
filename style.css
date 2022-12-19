@@ -8,11 +8,23 @@
     /* background: rgb(8, 8, 41); */
     /* background: ; */
 
-    
+
 }
 
-html{
+html {
     scroll-behavior: smooth;
+}
+
+.title {
+    background: rgb(8, 8, 41);
+}
+
+.git {
+    background: rgb(8, 8, 41);
+}
+
+.statsBox {
+    background: rgb(8, 8, 41);
 }
 
 /* navbar ========================================================*/
@@ -25,10 +37,14 @@ html{
 
 }
 
+.flag {
+    width: 5%;
+}
+
 .navbar.sticky {
     padding: 15px 0;
-  /* background: rgb(53, 53, 68); */
-  background: rgba(48, 43, 92, 0.999);
+    /* background: rgb(53, 53, 68); */
+    background: rgba(48, 43, 92, 0.999);
     color: white;
 }
 
@@ -40,7 +56,7 @@ html{
     color: white;
 }
 
- .max-width {
+.max-width {
     max-width: 1200px;
     padding: 0 40px;
     margin: auto;
@@ -56,13 +72,13 @@ html{
 
 .navbar .logo a {
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     /* margin-left: -60px; */
 }
 
 .navbar .logo a span {
-    color: crimson;
+    color: rgba(136, 129, 225, 0.999);
 }
 
 .navbar .menu li {
@@ -79,7 +95,7 @@ html{
 }
 
 .navbar .menu li a:hover {
-    color:  rgba(136, 129, 225, 0.999);
+    color: rgba(136, 129, 225, 0.999);
 }
 
 
@@ -102,11 +118,11 @@ html{
     color: #fff;
     min-height: 500px;
     font-family: 'ubuntu', sans-serif;
-   
+
 }
 
-.home .home-content{
- /* border:5px solid red; */
+.home .home-content {
+    /* border:5px solid red; */
 }
 
 .home .max-width {
@@ -116,13 +132,14 @@ html{
     justify-content: space-between;
     /* border: 10px solid black; */
 }
-.home .max-width .home-content{
+
+.home .max-width .home-content {
     /* border: 1px solid black; */
     width: 100%;
 
 }
 
-.home .max-width .img{
+.home .max-width .img {
     /* border: 5px solid rgb(148, 31, 31); */
 }
 
@@ -144,25 +161,27 @@ html{
     font-weight: 500;
     margin-left: -3px;
 }
+
 .home .home-content .text-4 {
     margin-top: 20px;
     font-size: 20px;
     font-weight: 300;
     margin-left: -3px;
 }
-.home .home-content .text-5{
+
+.home .home-content .text-5 {
     margin-top: 10px;
     font-size: 20px;
     font-weight: 300;
     margin-left: -3px;
 }
 
- .home .home-content a {
+.home .home-content a {
     font-size: 20px;
     display: inline-block;
     background-color: rgba(136, 129, 225, 0.999);
     color: rgb(167, 165, 165);
-    color:rgb(8, 8, 41) ;
+    color: rgb(8, 8, 41);
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
@@ -187,7 +206,7 @@ html{
 
 /* about section ======================================== */
 
-.about{
+.about {
     /* background: rgb(28, 28, 40); */
     /* border: 5px solid red; */
     background: rgb(8, 8, 41);
@@ -195,7 +214,7 @@ html{
 
 }
 
-.about .about-content{
+.about .about-content {
     /* border: 5px solid white; */
 }
 
@@ -204,7 +223,8 @@ section {
 }
 
 .about,
-.contact, footer{
+.contact,
+footer {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -218,9 +238,9 @@ section {
     color: whitesmoke;
 }
 
-.title span{
+.title span {
     /* color: crimson; */
-    color:rgba(136, 129, 225, 0.999);
+    color: rgba(136, 129, 225, 0.999);
 }
 
 .about .about-content .left img {
@@ -241,12 +261,12 @@ section {
 }
 
 .about .about-content .left {
-    width:28%;
+    width: 28%;
     /* border: 1px solid yellow; */
 }
 
 .about .about-content .right {
-    width:65%;
+    width: 65%;
     /* border: 1px solid green; */
     margin-right: 50px;
 }
@@ -272,12 +292,14 @@ section {
 }
 
 
-.about .about-content .right .text span{
+.about .about-content .right .text span {
     color: rgba(136, 129, 225, 0.999);
 }
-.about .about-content .right .text-1 span{
+
+.about .about-content .right .text-1 span {
     color: rgba(136, 129, 225, 0.999);
 }
+
 .about .about-content .right p {
     text-align: justify;
     font-size: 18px;
@@ -311,101 +333,105 @@ section {
     /* background: rgb(28, 28, 40); */
     background: rgb(8, 8, 41);
 
-      
-  }
-  .skills h3 {
-      font-size: 25px;
-      font-weight: 500;
-      margin-bottom: 60px;
-      padding-bottom: 20px;
-      text-align: center;
-      font-family: 'ubuntu', sans-serif;
-      color: whitesmoke;
-      
-  }
-  
-  .skills h2{
-      text-align: center;
-      font-size: 40px;
-      font-weight: 500;
-      margin-bottom: 20px;
-      font-family: 'ubuntu', sans-serif;
-      color: whitesmoke;
-  }
 
-  .skills h2 span{
+}
+
+.skills h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    color: whitesmoke;
+
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'ubuntu', sans-serif;
+    color: whitesmoke;
+}
+
+.skills h2 span {
     color: rgba(136, 129, 225, 0.999);
-  }
-  
-  .skills .tools_and_tech {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 40px;
-      justify-content: center;
-      width: 75%;
-      margin: auto;
-  }
-  .skills .tools_and_tech img,
-  .tech-stacks img {
-      width: 100px;
-      padding: 10px;
+}
+
+.skills .tools_and_tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+.skills .tools_and_tech img,
+.tech-stacks img {
+    width: 100px;
+    padding: 10px;
     background: rgb(53, 53, 68);
-      border-radius: 6px;
-      transition: all 0.4s cubic-bezier(0.38, 0.37, 0.17, 0.83);
-  }
-  .skills .tools_and_tech img:hover,
-  .tech-stacks img:hover {
-      box-shadow: 0 0 0 1px rgba(251, 251, 251, 0.497), 0 0 5px rgba(0, 0, 0, 0.527);
-  
-  }
-  body.dark .skills .tools_and_tech img {
-      background-color: rgb(32, 32, 46);
-  }
-  
-  body.dark .skills .tools_and_tech img:hover,
-  body.dark .tech-stacks img:hover {
-      box-shadow: 0 0 0 1px rgba(69, 1, 1, 0.3),
-          0 0 5px rgba(255, 255, 255, 0.527);
-  }
+    border-radius: 6px;
+    transition: all 0.4s cubic-bezier(0.38, 0.37, 0.17, 0.83);
+}
+
+.skills .tools_and_tech img:hover,
+.tech-stacks img:hover {
+    box-shadow: 0 0 0 1px rgba(251, 251, 251, 0.497), 0 0 5px rgba(0, 0, 0, 0.527);
+
+}
+
+body.dark .skills .tools_and_tech img {
+    background-color: rgb(32, 32, 46);
+}
+
+body.dark .skills .tools_and_tech img:hover,
+body.dark .tech-stacks img:hover {
+    box-shadow: 0 0 0 1px rgba(69, 1, 1, 0.3),
+        0 0 5px rgba(255, 255, 255, 0.527);
+}
 
 /* project section ------------------------------------------------ */
 
-.project{
-  background: rgb(28, 28, 40);
-  background: rgb(8, 8, 41);
+.project {
+    background: rgb(28, 28, 40);
+    background: rgb(8, 8, 41);
 
 
 }
 
-.project .project1{
+.project .project1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
 }
 
-.project .project1{
+.project .project1 {
     width: 100%;
     height: 350px;
-  background: rgb(53, 53, 68);   
+    background: rgb(53, 53, 68);
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 
 
 }
 
-.project .project1 .left .img{
+.project .project1 .left .img {
     width: 650px;
     margin-top: 0;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius:10px;
+    border-radius: 10px;
     margin-left: 10px;
 }
 
 
 
-.project .project1 .right{
+.project .project1 .right {
     /* border: 1px solid red; */
     width: 40%;
     height: 80%;
@@ -413,48 +439,51 @@ section {
 
 }
 
-.project .project1 .right .head{
+.project .project1 .right .head {
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
     margin-bottom: 10px;
 
 }
+
 .project .project1 .right .sub-head a {
-    font-size:17px;
+    font-size: 17px;
     margin-top: 10px;
-    margin-left:5px;
+    margin-left: 5px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
-    
+
 
 }
+
 .project .project1 .right p {
     margin-left: 5px;
-    margin-top:10px;
+    margin-top: 10px;
     width: 90%;
-    font-size:17px;
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     color: rgb(167, 165, 165);
 }
 
 
-.project .project1 .right .sub-head2{
+.project .project1 .right .sub-head2 {
     font-size: 20px;
     margin-left: 5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 550;
     margin-top: 15px;
-    color:whitesmoke;
+    color: whitesmoke;
 
 }
-.project .project1 .right .sub-head2 img{
+
+.project .project1 .right .sub-head2 img {
     font-size: 20px;
     width: 10%;
     margin-top: 5px;
-    margin-left:5px;
+    margin-left: 5px;
     padding: 5px 5px;
     border-radius: 10px;
     /* background-color: whitesmoke; */
@@ -463,7 +492,7 @@ section {
 
 /* contact section */
 
-.contact{
+.contact {
     background: rgb(28, 28, 40);
     background: rgb(8, 8, 41);
 
@@ -474,12 +503,14 @@ section {
     width: calc(50% - 30px);
 }
 
-.contact .contact-content .left{
-    width:25%;
+.contact .contact-content .left {
+    width: 25%;
 }
-.contact .contact-content .right{
-    width:65%;
+
+.contact .contact-content .right {
+    width: 65%;
 }
+
 /* .contact .contact-content .left .text{
     margin-bottom: 70px;
 } */
@@ -489,12 +520,12 @@ section {
     font-weight: 600;
     margin-bottom: 10px;
     color: rgb(167, 165, 165);
-    
+
 }
 
 .contact .contact-content .left .icons {
     margin: 10px 0;
-  color: rgb(167, 165, 165);
+    color: rgb(167, 165, 165);
 
 
 }
@@ -521,7 +552,7 @@ section {
 
 .contact .contact-content .git .sub-title a {
     color: rgb(167, 165, 165);
-    
+
 }
 
 .contact .right form .fields {
@@ -598,15 +629,19 @@ section {
 
 
 
-.scroll-up, .scroll-up1, .scroll-up2, a{
-    color: #fff; 
-   
+.scroll-up,
+.scroll-up1,
+.scroll-up2,
+a {
+    color: #fff;
+
 }
-.scroll-up{
+
+.scroll-up {
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color:rgba(48, 43, 92, 0.999);
+    background-color: rgba(48, 43, 92, 0.999);
     left: 20px;
     text-align: center;
     bottom: 20px;
@@ -619,11 +654,12 @@ section {
     /* border:2px solid rgba(255, 255, 255, 0.999); */
     transition: all 0.3s ease;
 }
-.scroll-up1{
+
+.scroll-up1 {
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color:rgba(48, 43, 92, 0.999);
+    background-color: rgba(48, 43, 92, 0.999);
 
     left: 20px;
     text-align: center;
@@ -637,11 +673,12 @@ section {
     /* border:2px solid rgba(136, 129, 225, 0.999); */
     transition: all 0.3s ease;
 }
-.scroll-up2{
+
+.scroll-up2 {
     position: fixed;
     height: 45px;
     width: 42px;
-    background-color:rgba(48, 43, 92, 0.999);
+    background-color: rgba(48, 43, 92, 0.999);
     /* right: 30px; */
     left: 20px;
     text-align: center;
@@ -670,17 +707,17 @@ section {
 
 
 /* footer section  */
-footer{
+footer {
     /* background: rgb(28, 28, 40); */
     background: rgb(8, 8, 41);
     padding: 20px 23px;
     color: rgb(167, 165, 165);
 
     text-align: center;
- 
+
 }
 
-footer span a{
+footer span a {
     color: crimson;
 }
 
@@ -709,28 +746,34 @@ footer span a{
 
 }
 
+.stats {
+    display: block;
+    margin: auto;
+}
+
+
 @media (max-width: 991px) {
     .max-width {
         padding: 0 50px;
     }
-     
+
 }
- 
- @media only screen and (min-width: 947px) and (max-width:1100px){
-  .project .project1 .left .img{
+
+@media only screen and (min-width: 947px) and (max-width:1100px) {
+    .project .project1 .left .img {
         height: 280px;
         width: 450px;
         object-fit: cover;
-   }
- }
- 
- @media only screen and (min-width: 1100px) and (max-width:1270px){
-    .project .project1 .left .img{
-          height: 280px;
-          width: 550px;
-          object-fit: cover;
-     }
-   }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1270px) {
+    .project .project1 .left .img {
+        height: 280px;
+        width: 550px;
+        object-fit: cover;
+    }
+}
 
 
 @media (max-width: 947px) {
@@ -776,14 +819,16 @@ footer span a{
     .home .home-content .text-3 {
         font-size: 35px;
     }
+
     .home .home-content .text-4 {
         font-size: 18px;
     }
+
     .home .home-content .text-5 {
         font-size: 18px;
     }
 
- .max-width {
+    .max-width {
         max-width: 800px;
     }
 
@@ -803,28 +848,32 @@ footer span a{
         margin: 0 auto 60px;
     }
 
-  .project .project1{
-    width: auto;
-    height: auto;
-  }
-
-    .project .project1 .left .img{
-         max-width: 95%;
-        display: flex;
-        /* justify-content: center; */
-        margin: 0 auto 40px; 
+    .project .project1 {
+        width: auto;
+        height: auto;
     }
 
-    .project .project1 .right{
+    .project .project1 .left .img {
+        max-width: 95%;
+        display: flex;
+        /* justify-content: center; */
+        margin: 0 auto 40px;
+    }
+
+    .project .project1 .right {
         flex: 100%;
-       justify-content: center;
-       margin: 0 auto 60px;
+        justify-content: center;
+        margin: 0 auto 60px;
 
     }
 
     .contact .contact-content .column {
         width: 100%;
         margin-bottom: 35px;
+    }
+
+    .stats {
+        width: 60%;
     }
 }
 
@@ -840,9 +889,11 @@ footer span a{
     .home .home-content .text-3 {
         font-size: 32px;
     }
+
     .home .home-content .text-4 {
         font-size: 14px;
     }
+
     .home .home-content .text-5 {
         font-size: 14px;
     }
@@ -864,22 +915,22 @@ footer span a{
 }
 
 
-@media only screen and (min-width: 280px) and (max-width:388px){
-    .skills .tools{
+@media only screen and (min-width: 280px) and (max-width:388px) {
+    .skills .tools {
         max-width: 100%;
         width: auto;
         height: auto;
         display: grid;
-        grid-template-columns:repeat(2,82px);
-        grid-template-rows: repeat(5,174px);  
+        grid-template-columns: repeat(2, 82px);
+        grid-template-rows: repeat(5, 174px);
         gap: 12px;
         margin: auto;
         border: 1px solid white;
         /* padding: 10px 10px; */
     }
 
-    
-    .skills .tools a{
+
+    .skills .tools a {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -891,4 +942,4 @@ footer span a{
 
     }
 
-   }
+}
