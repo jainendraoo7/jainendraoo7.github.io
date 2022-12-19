@@ -77,3 +77,60 @@ function deploy2() {
 //     GitHubCalendar(".calendar", "jainendraoo7");
 //     GitHubCalendar(".calendar", "jainendraoo7", { responsive: true });
 // }
+
+
+
+
+// Scrollreveal-==================================================
+
+
+const sr = ScrollReveal({
+    origin: 'bottom',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+
+});
+
+sr.reveal('.home-content', {})
+sr.reveal('.text-4', { delay: 200 })
+sr.reveal('.text-5', { delay: 200 })
+sr.reveal('.resume', { delay: 400 })
+
+// About--
+sr.reveal('.about-content', {})
+sr.reveal('.right .text-1', { delay: 200 })
+sr.reveal('.right .text', { delay: 200 })
+sr.reveal('.right p', { delay: 400 })
+
+// Skills--------
+sr.reveal('.tools_and_tech', { delay: 300 })
+
+// Git------------
+sr.reveal('.calen', { delay: 200 })
+sr.reveal('.statsContainer', { delay: 400 })
+
+// Projects----------sub-head2
+sr.reveal('.project1', { delay: 200 })
+sr.reveal('.sub-head2', { delay: 500 })
+
+// contact-----
+const sr1 = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+
+});
+
+sr1.reveal('.contact .left', { delay: 200 })
+sr1.reveal('.contact .fields', { delay: 100 })
+sr1.reveal('.contact .field', { delay: 400 })
+sr1.reveal('.contact .textarea', { delay: 600 })
+sr1.reveal('.contact .button', { delay: 800 })
+
+
+// scroll-ups---------
+sr.reveal('.scroll-up2', { delay: 200 })
+sr.reveal('.scroll-up1', { delay: 400 })
+sr.reveal('.scroll-up', { delay: 600 })
