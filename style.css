@@ -112,7 +112,7 @@ html {
 /* home-section =====================================================*/
 .home {
     display: flex;
-    background: rgb(28, 28, 40);
+    /* background: rgb(28, 28, 40); */
     background: rgb(8, 8, 41);
     height: 100vh;
     color: #fff;
@@ -808,7 +808,7 @@ footer span a {
 
     .navbar .menu li a {
         display: inline-block;
-        margin: 20px 0;
+        margin: 20px 30px;
         font-size: 25px;
     }
 

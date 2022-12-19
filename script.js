@@ -14,6 +14,12 @@ $(document).ready(function () {
         // }
     });
 
+    //    toggle menu/navbar script
+    $('.menu-btn').click(function () {
+
+        $(".navbar .menu").toggleClass("active");
+
+    });
 
     //    typing animation script 
 
@@ -67,7 +73,7 @@ function deploy2() {
 
 // github
 
-window.onload = function () {
-    GitHubCalendar(".calendar", "jainendraoo7");
-    GitHubCalendar(".calendar", "jainendraoo7", { responsive: true });
-}
+// window.onload = function () {
+//     GitHubCalendar(".calendar", "jainendraoo7");
+//     GitHubCalendar(".calendar", "jainendraoo7", { responsive: true });
+// }
