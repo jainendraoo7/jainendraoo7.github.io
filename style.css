@@ -494,8 +494,13 @@ body.dark .tech-stacks img:hover {
     padding: 5px 5px;
     border-radius: 10px;
     /* background-color: whitesmoke; */
+
+
 }
 
+.project1 .right .sub-head2 img {
+    background-color: whitesmoke;
+}
 
 /* contact section */
 
