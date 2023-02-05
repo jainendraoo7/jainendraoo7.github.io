@@ -110,8 +110,17 @@ sr.reveal('.tools_and_tech', { delay: 300 })
 sr.reveal('.calen', { delay: 200 })
 sr.reveal('.statsContainer', { delay: 400 })
 
+
+const sr2 = ScrollReveal({
+    origin: 'left',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+
+});
+
 // Projects----------sub-head2
-sr.reveal('.project1', { delay: 200 })
+sr2.reveal('.project1', { delay: 200 })
 
 
 // contact-----
