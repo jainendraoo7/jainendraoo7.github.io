@@ -120,7 +120,7 @@ const sr2 = ScrollReveal({
 });
 
 // Projects----------sub-head2
-sr2.reveal('.project1', { delay: 200 })
+sr2.reveal('.project-card', { delay: 200 })
 
 
 // contact-----

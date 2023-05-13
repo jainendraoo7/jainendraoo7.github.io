@@ -15,6 +15,8 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
+
+
 <body>
     <div class="scroll-up2">
         <a href="https://github.com/jainendraoo7" target="_blank"><i class="fa fa-github-square"></i></a>
@@ -29,7 +31,7 @@
     </div>
 
 
-    <nav class="navbar">
+    <nav class="navbar" id="nav-menu">
         <div class="max-width">
             <div class="logo"><a href="#"><span>पोर्ट</span>folio</span></a></div>
             <ul class="menu">
@@ -39,7 +41,7 @@
                 <li><i class="fa fa-gear" style="margin-right:-20px; margin-left: 20px; color:white;"></i><a
                         href="#skills">Skills</a></li>
                 <li><i class="fa fa-desktop" style="margin-right:-20px; margin-left: 20px; color:white;"></i><a
-                        href="#project">Projects</a></li>
+                        href="#projects">Projects</a></li>
                 <li><i class="fa fa-tablet" style="margin-right:-20px; margin-left: 20px; color:white;"></i><a
                         href="#contact">Contact Me</a></li>
                 <li><i class="fa fa-download" style="margin-right:-20px; margin-left: 20px; color:white;"></i><a
@@ -52,7 +54,7 @@
     </nav>
 
     <!-- home section start                  -->
-    <section class="home" id="home">
+    <section class="nav-link home" id="home">
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hello, My name is</div>
@@ -69,20 +71,20 @@
         </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="nav-link about" id="about">
         <div class="max-width">
             <h2 class="title">About <span>Me</span></h2>
             <div class="about-content">
                 <div class="column left">
                     <!-- <img src="IMG_20221013_110320_584 (1).jpg" alt=""> -->
-                    <img src="./img/3.jpg" alt="">
+                    <img src="./img/3.jpg" alt="" class="home-img">
 
 
 
                 </div>
                 <div class="column right">
-                    <div class="text-1">I,m<span> Jainendra Singh Shekhawat</span></div>
-                    <div class="text">Skilled in <span class="typing">java</span></div>
+                    <div class="text-1" id="user-detail-name">I,m<span> Jainendra Singh Shekhawat</span></div>
+                    <div class="text" id="user-detail-intro">Skilled in <span class="typing">java</span></div>
                     <p>Aspiring Java Backend Developer. Problem-solving mindset with a positive attitude and a
                         willingness to learn new technologies. I am looking for a hopeful role in a company where I can
                         utilize my skills and experience to contribute to the success of the team and the organization.
@@ -105,43 +107,47 @@
             </div>
             <div>
                 <div class="tools_and_tech">
-                    <a href="https://www.java.com" target="_blank" title="Java">
+                    <a href="https://www.java.com" target="_blank" title="Java" class="skills-card-name">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-                            alt="java" />
+                            alt="java" class="skills-card-img" />
                     </a>
-                    <a href="https://www.mysql.com/" target="_blank" title="MySQL">
+                    <a href="https://www.mysql.com/" target="_blank" title="MySQL" class="skills-card-name">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
                             alt="mysql" />
                     </a>
-                    <a href="https://spring.io/" target="_blank" title="Spring">
-                        <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" />
+                    <a href="https://spring.io/" target="_blank" title="Spring" class="skills-card-name">
+                        <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring"
+                            class="skills-card-img" />
                     </a>
-                    <a href="https://firebase.google.com/" target="_blank" title="Firebase">
-                        <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" />
+                    <a href="https://firebase.google.com/" target="_blank" title="Firebase" class="skills-card-name">
+                        <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase"
+                            class="skills-card-img" />
                     </a>
-                    <a href="https://git-scm.com/" target="_blank" title="Git">
-                        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" />
+                    <a href="https://git-scm.com/" target="_blank" title="Git" class="skills-card-name">
+                        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"
+                            class="skills-card-img" />
                     </a>
-                    <a href="https://aws.amazon.com" target="_blank" title="AWS">
+                    <a href="https://aws.amazon.com" target="_blank" title="AWS" class="skills-card-name">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-                            alt="aws" />
+                            alt="aws" class="skills-card-img" />
                     </a>
-                    <a href="https://heroku.com" target="_blank" title="Heroku">
-                        <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" />
+                    <a href="https://heroku.com" target="_blank" title="Heroku" class="skills-card-name">
+                        <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku"
+                            class="skills-card-img" />
                     </a>
 
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
-                        title="JavaScript">
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript"
+                        class="skills-card-name">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                            alt="javascript" />
+                            alt="javascript" class="skills-card-img" />
                     </a>
-                    <a href="https://www.w3.org/html/" target="_blank" title="HTML">
+                    <a href="https://www.w3.org/html/" target="_blank" title="HTML" class="skills-card-name">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                            alt="html5" />
+                            alt="html5" class="skills-card-img" />
                     </a>
-                    <a href="https://www.w3schools.com/css/" target="_blank" title="CSS">
+                    <a href="https://www.w3schools.com/css/" target="_blank" title="CSS" class="skills-card-name">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                            alt="css3" />
+                            alt="css3" class="skills-card-img" />
                     </a>
                 </div>
             </div>
@@ -200,24 +206,27 @@
     </div> -->
 
 
-    <section class="project" id="project">
+    <section class="project" id="projects">
         <div class="max-width">
             <h2 class="title">Projects</h2>
-            <div class="project1">
+
+            <div class="project-card">
                 <div class="left">
                     <img class="img" src="https://mazidul36i.github.io/resources/cronometer_ss.png" alt=""
                         onclick="deploy1()">
                 </div>
                 <div class="right">
-                    <div class="head">Cronometer Clone</div>
-                    <div class="sub-head"><a href="https://github.com/mazidul36i/Cronometer_clone" target="_blank"><i
-                                class="fa fa-github-square"></i> Github</a> <a
-                            href="https://cronometerclone.netlify.app/" target="_blank"><i class="fa fa-desktop"></i>
+                    <div class="project-title">Cronometer Clone</div>
+                    <div class="sub-head"><a href="https://github.com/mazidul36i/Cronometer_clone" target="_blank"
+                            class="project-github-link"><i class="fa fa-github-square"></i> Github</a> <a
+                            href="https://cronometerclone.netlify.app/" target="_blank" class="project-deployed-link"><i
+                                class="fa fa-desktop"></i>
                             Deploy Link</a></div>
-                    <p>A clone of the Chronometer official website. The Chronometer is a fitness and diet management and
+                    <p class="project-description">A clone of the Chronometer official website. The Chronometer is a
+                        fitness and diet management and
                         tracking web application. We have developed this clone in collaboration with 5 people in a team.
                         We tried to clone the exact same UI as the original with responsiveness..</p>
-                    <div class="sub-head2">Tech Stacks <br>
+                    <div class="project-tech-stack">Tech Stacks <br>
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                             alt="">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -230,21 +239,23 @@
                 </div>
             </div>
 
-            <div class="project1">
+            <div class="project-card">
                 <div class="left">
                     <img class="img" src="Screenshot (223).png" alt="" onclick="deploy2()">
                 </div>
                 <div class="right">
-                    <div class="head">Tripoto Clone</div>
+                    <div class="project-title">Tripoto Clone</div>
                     <div class="sub-head"><a href="https://github.com/jainendraoo7/overjoyed-seashore-212"
-                            target="_blank"><i class="fa fa-github-square"></i> Github</a><a
-                            href="https://cozy-starlight-b42384.netlify.app" target="_blank"> <i class="fa fa-desktop"
-                                onclick="deploy2()"></i> Deploy Link</a></div>
-                    <p>A clone of the Tripoto official website. the tripoto is the one-stop social media platform for
+                            target="_blank" class="project-github-link"><i class="fa fa-github-square"></i> Github</a><a
+                            href="https://cozy-starlight-b42384.netlify.app" target="_blank"
+                            class="project-deployed-link"> <i class="fa fa-desktop" onclick="deploy2()"></i> Deploy
+                            Link</a></div>
+                    <p class="project-description">A clone of the Tripoto official website. the tripoto is the one-stop
+                        social media platform for
                         travellers
                         Here travelers consume the content of other travelers all
                         across the globe this was clone project.</p>
-                    <div class="sub-head2">Tech Stacks <br>
+                    <div class="project-tech-stack">Tech Stacks <br>
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                             alt="">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -256,20 +267,21 @@
                 </div>
             </div>
 
-            <div class="project1">
+            <div class="project-card">
                 <div class="left">
                     <img class="img" src="./img/Untitled (1).png" alt="" onclick="deploy2()">
                 </div>
                 <div class="right">
-                    <div class="head">Human Resource Management</div>
+                    <div class="project-title">Human Resource Management</div>
                     <div class="sub-head"><a href="https://github.com/jainendraoo7/-Human-Resource-Managment"
-                            target="_blank"><i class="fa fa-github-square"></i> Github</a><a
+                            target="_blank" class="project-github-link"><i class="fa fa-github-square"></i> Github</a><a
                             href="https://cozy-starlight-b42384.netlify.app" target="_blank"><a
-                                href="https://drive.google.com/file/d/1Iqc61tp6oz85AO4RQ3cZ3rSUKpFzIqov/view?usp=share_link"><i
-                                    class="fa fa-play-circle"> Video</i></a></div>
-                    <p>This project is to maintain the Admin And Employee related managment like Register
+                                href="https://drive.google.com/file/d/1Iqc61tp6oz85AO4RQ3cZ3rSUKpFzIqov/view?usp=share_link"
+                                class="project-deployed-link"><i class="fa fa-play-circle"> Video</i></a></div>
+                    <p class="project-description">This project is to maintain the Admin And Employee related managment
+                        like Register
                         employee,update and delete. By Employee side can update,view and request for leave.</p>
-                    <div class="sub-head2">Tech Stacks <br>
+                    <div class="project-tech-stack">Tech Stacks <br>
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
                             alt="">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
@@ -278,21 +290,22 @@
                     </div>
                 </div>
             </div>
-            <div class="project1">
+            <div class="project-card">
                 <div class="left">
                     <img class="img"
                         src="https://user-images.githubusercontent.com/103574856/208312888-183662ec-d1d3-41c7-b483-6a8f7eed1111.png"
                         style="height:330px;" alt="" onclick="deploy2()">
                 </div>
                 <div class="right">
-                    <div class="head">Trip Managment System</div>
-                    <div class="sub-head"><a href="https://github.com/gopalkrushnas063/Venture_Trip" target="_blank"><i
-                                class="fa fa-github-square"></i> Github</a><a
+                    <div class="project-title">Trip Managment System</div>
+                    <div class="sub-head"><a href="https://github.com/gopalkrushnas063/Venture_Trip" target="_blank"
+                            class="project-github-link"><i class="fa fa-github-square"></i> Github</a><a
                             href="https://drive.google.com/file/d/1PuvsVPzFwBMlrqOoFS4wx4x5iZG8eF7c/view?usp=sharing"
-                            target="_blank"><i class="fa fa-play-circle"> Video</i></div>
-                    <p>This project is to maintain the Admin And Employee related managment like Register
+                            target="_blank" class="project-deployed-link"><i class="fa fa-play-circle"> Video</i></div>
+                    <p class="project-description">This project is to maintain the Admin And Employee related managment
+                        like Register
                         employee,update and delete. By Employee side can update,view and request for leave.</p>
-                    <div class="sub-head2">Tech Stacks <br>
+                    <div class="project-tech-stack">Tech Stacks <br>
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
                             alt="">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
@@ -303,22 +316,24 @@
                     </div>
                 </div>
             </div>
-            <div class="project1">
+            <div class="project-card">
                 <div class="left">
                     <img class="img"
                         src="https://user-images.githubusercontent.com/77963675/213923642-96b6dcc2-8eb8-46f8-b6a1-06cecd729951.png"
                         style="height:330px;" alt="" onclick="deploy2()">
                 </div>
                 <div class="right">
-                    <div class="head">Online Cab Booking</div>
-                    <div class="sub-head"><a href="https://github.com/abhishek-0713/Kapsi" target="_blank"></i>
+                    <div class="project-title">Online Cab Booking</div>
+                    <div class="sub-head"><a href="https://github.com/abhishek-0713/Kapsi" target="_blank"
+                            class="project-github-link"></i>
                             Github</a><a href="https://drive.google.com/drive/folders/1bjKzYE9zcycX2uglzwOnjqs94ru4eZyy"
-                            target="_blank"><i class="fa fa-play-circle"> Video</i></div>
-                    <p class="des">developed this RESTful webservice for an Online Cab Booking application.
+                            target="_blank" class="project-deployed-link"><i class="fa fa-play-circle"> Video</i></div>
+                    <p class="project-description">developed this RESTful webservice for an Online Cab Booking
+                        application.
                         This API performs all the fundamental CRUD operations of any Online Cab Booking platform with
                         user validation at
                         every step..</p>
-                    <div class="sub-head2">Tech Stacks <br>
+                    <div class="project-tech-stack">Tech Stacks <br>
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
                             alt="">
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
@@ -345,8 +360,8 @@
                                     class="fa fa-github-square"></i></a>
                             <div class="git">
                                 <div class="head">Github Link</div>
-                                <div class="sub-title"><a href="https://github.com/jainendraoo7"
-                                        target="_blank">github.com/jainendraoo7</a></div>
+                                <div class="sub-title"><a href="https://github.com/jainendraoo7" target="_blank"
+                                        id="contact-github">github.com/jainendraoo7</a></div>
                             </div>
                         </div>
 
@@ -355,7 +370,8 @@
                                     class="fa fa-envelope-square"></i></a>
                             <div class="git">
                                 <div class="head">Write to me</div>
-                                <div class="sub-title"><a href="" target="_blank">jainendrasingh398@gmail.com</a></div>
+                                <div class="sub-title"><a href="" target="_blank"
+                                        id="contact-email">jainendrasingh398@gmail.com</a></div>
                             </div>
                         </div>
 
@@ -365,14 +381,15 @@
                             <div class="git">
                                 <div class="head">Linkedin Profile</div>
                                 <div class="sub-title"><a href="https://www.linkedin.com/in/jainendra-singh-44414b193/"
-                                        target="_blank">linkedin.com/JainendraSingh</a></div>
+                                        target="_blank" id="contact-linkedin">linkedin.com/JainendraSingh</a></div>
                             </div>
                         </div>
                         <div class="rows">
                             <a href="" target="_blank"><i class="fa fa-phone-square"></i></a>
                             <div class="git">
                                 <div class="head">Contact Number</div>
-                                <div class="sub-title"><a href="" target="_blank">+918890147807</a></div>
+                                <div class="sub-title"><a href="" target="_blank" id="contact-phone">+918890147807</a>
+                                </div>
                             </div>
                         </div>
                     </div>
